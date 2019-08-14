@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<!--The XML namespace (xmlns) declaration is necessary.
+Thymeleaf is the template engine.-->
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello, another world!</title>
+</head>
+<body>
+<!--The value in attribute "th:text" will be used for filling this element. Other kind of attribute can be explored
+by the auto-completion and documents.-->
+<span th:text="${parsingFromJava}"></span>
+</body>
+</html>
